@@ -1,7 +1,8 @@
 {
   "name": "create-es6",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Create a blank free and open Node.js ESM project",
+  "main": "bin.js",
   "bin": {
     "es6": "bin.js",
     "create-es6": "bin.js"

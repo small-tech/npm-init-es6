@@ -43,4 +43,7 @@ const packageFile = `
 `
 
 const cwd = fs.realpathSync(process.cwd())
+
+console.log('cwd', cwd)
+
 fs.writeFileSync(path.join(cwd, 'package.json'), packageFile)
