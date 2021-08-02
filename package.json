@@ -7,7 +7,6 @@
     "es6": "bin.js",
     "create-es6": "bin.js"
   },
-  "type": "module",
   "license": "AGPL-version-3.0",
   "private": false,
   "engines": {
