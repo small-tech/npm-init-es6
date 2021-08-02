@@ -3,8 +3,7 @@
 const fs = require('fs')
 const path = require('path')
 
-const packageFile = `
-{
+const packageFile = `{
   "name": "",
   "version": "1.0.0",
   "description": "",
