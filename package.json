@@ -2,7 +2,10 @@
   "name": "create-es6",
   "version": "1.0.2",
   "description": "Create a blank free and open Node.js ESM project",
-  "bin": "bin.js",
+  "bin": {
+    "es6": "bin.js",
+    "create-es6": "bin.js"
+  },
   "type": "module",
   "license": "AGPL-version-3.0",
   "private": false,
