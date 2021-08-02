@@ -1,4 +1,5 @@
 import fs from 'fs'
+import path from 'path'
 
 const packageFile = `
 {
@@ -41,4 +42,5 @@ const packageFile = `
 }
 `
 
-fs.writeFileSync('package.json', packageFile)
+const cwd = fs.realpathSync(process.cwd())
+fs.writeFileSync(path.join(cwd, 'package.json'), packageFile)
